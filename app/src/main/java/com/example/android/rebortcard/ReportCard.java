@@ -8,8 +8,8 @@ import java.util.List;
 
 public class ReportCard {
 
-   private String name;
-    private int id;
+    private String name;
+    private int id = 0;
     private String Subject;
     private int grade;
 
