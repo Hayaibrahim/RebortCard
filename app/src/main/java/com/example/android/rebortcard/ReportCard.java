@@ -8,10 +8,10 @@ import java.util.List;
 
 public class ReportCard {
 
-    String name;
-    int id;
-    String Subject;
-    int grade;
+   private String name;
+    private int id;
+    private String Subject;
+    private int grade;
 
     public ReportCard(String name, int id, String Subject, int grade) {
         this.name = name;
