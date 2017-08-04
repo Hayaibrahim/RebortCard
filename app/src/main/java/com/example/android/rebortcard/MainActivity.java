@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Rebortcard h = new Rebortcard("haya", 34567, "math", 80);
+        ReportCard h = new ReportCard("haya", 34567, "math", 80);
         System.out.println(h);
     }
 }

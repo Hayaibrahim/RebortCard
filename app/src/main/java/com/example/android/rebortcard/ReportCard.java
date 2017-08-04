@@ -5,13 +5,15 @@ import java.util.List;
 /**
  * Created by haya1 on 8/4/2017 AD.
  */
-public class Rebortcard {
+
+public class ReportCard {
+
     String name;
     int id;
     String Subject;
     int grade;
 
-    public Rebortcard(String name, int id, String Subject, int grade) {
+    public ReportCard(String name, int id, String Subject, int grade) {
         this.name = name;
         this.id = id;
         this.Subject = Subject;
